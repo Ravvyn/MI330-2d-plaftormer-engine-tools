@@ -1,0 +1,17 @@
+I-Frame changes by Cal M =3
+
+Updated the PlayerStats script to make the player invincible while their sprite is flashing.
+
+In order to use this script, replace the game's existing PlayerStats.cs script with the on in this repo.
+
+In order to configure if / how long the player is invincible, select the player prefab. I reccomend editing the base prefab in the project bin rather than in the scene hierarchy, that way your changes are saved across scenes. 
+
+In the prefab editor, select "player" in the Hierarchy. This is the game object that stores the customizable values. You can also edit player movement settings in here!
+
+Scroll down to "Player Stats", click on the "Others" button. This will show you the i-frame settings. 
+
+Toggling "Flashes On Damage" will enable/disable i-frames as well as the player flashing animations.
+
+"Flash Duration" is how long your i-frames last, in seconds.
+
+"Flash Speed" configures how quickly the animation is. Does not affect how i-frames are applied to the player.
